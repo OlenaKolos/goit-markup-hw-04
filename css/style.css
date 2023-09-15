@@ -332,7 +332,7 @@ p {
 }
 
 .icon {
-    fill: #ffffff;
+    fill: var(--color-secondary-light);
 
 }
 
@@ -438,4 +438,13 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
+}
+
+.f-icon{
+    fill: var(--color-secondary-light)
+} 
+
+.second-block .social-link:hover,
+.second-block .social-link:focus {
+    background-color: #31D0AA;
 }
