@@ -384,6 +384,15 @@ p {
     padding: 100px 0;
 }
 
+.footer-first-block{
+    margin-right: 120px;
+}
+
+.move-blocks{
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -403,4 +412,19 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-second-block{
+    width: 208px; 
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.general-text{
+    display: inline-block;
+    padding-bottom: 16px;
 }
