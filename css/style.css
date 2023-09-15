@@ -428,6 +428,7 @@ p {
 .social-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 
@@ -441,9 +442,6 @@ p {
 }
 
 .social-item{
-    display: flex;
-    justify-items: center;
-    align-items: center;
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -460,8 +458,8 @@ p {
     fill: var(--color-secondary-light)
 } 
 
-.second-block .social-link:hover,
-.second-block .social-link:focus {
+.social-link:hover,
+.social-link:focus {
     background-color: #31D0AA;
-    border-radius: 50%;
+
 }
