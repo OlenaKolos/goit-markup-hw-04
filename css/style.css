@@ -121,7 +121,6 @@ p {
 .header-list .top-line{
     position: relative;
     color: var(--color-hover-focus);
-
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -152,6 +151,9 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-primary);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
